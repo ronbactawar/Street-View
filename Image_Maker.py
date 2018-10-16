@@ -1,3 +1,4 @@
+# A program that reads in a list of Street View API URLs and downloads the image produced
 
 import pandas as pd
 import numpy as np
