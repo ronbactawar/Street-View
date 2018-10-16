@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import reverse_geocoder as rg
 
+# Reverse geocodes to city granularity given as a set of (Lattitude, Longitude) coordinates
+
 # Accepts a .csv file with "Latitude" and "Longitude" as fields
 
 # Return a DataFrame with and additional "City" field.  Output .csv is "r_geocoded_table.csv"
